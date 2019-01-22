@@ -1,5 +1,7 @@
 ## UsmanAAV page
 
+[![Build Status](https://travis-ci.org/UsmanAAV/UsmanAAV.github.io.svg?branch=master)](https://travis-ci.org/UsmanAAV/UsmanAAV.github.io)
+
 [link](https://usmanaav.github.io/)
 
 ## install
