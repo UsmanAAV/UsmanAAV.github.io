@@ -4,6 +4,10 @@
 
 [link](https://usmanaav.github.io/)
 
+## branches
+
+**azamat** — source, **master** — built static page
+
 ## install
 
 npm run install
