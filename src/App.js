@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import { BrowserRouter as Router, Route } from 'react-router-dom';
+import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
 
 import './App.css';
 
@@ -18,10 +18,12 @@ class App extends Component {
             <Header />
           </header>
           <main>
-            <Route path="/" exact component={Home} />
-            <Route path="/activity/" exact component={Activity} />
-            <Route path="/contacts/" exact component={Contacts} />
-            <Route component={() => <div className="dark">{'Sorry, this page not found'}</div>} />
+            <Switch>
+              <Route path="/" exact component={Home} />
+              <Route path="/activity/" exact component={Activity} />
+              <Route path="/contacts/" exact component={Contacts} />
+              <Route component={() => <div className="dark">{'Sorry, this page not found'}</div>} />
+            </Switch>
           </main>
           <footer className="page-footer font-small bg-dark">
             <Footer />
