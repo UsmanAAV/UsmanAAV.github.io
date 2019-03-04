@@ -1,8 +1,8 @@
 ## UsmanAAV page
 
-[![Build Status](https://travis-ci.org/UsmanAAV/UsmanAAV.github.io.svg?branch=master)](https://travis-ci.org/UsmanAAV/UsmanAAV.github.io)
+[![Build Status](https://travis-ci.org/UsmanAAV/UsmanAAV.github.io.svg?branch=azamat)](https://travis-ci.org/UsmanAAV/UsmanAAV.github.io)
 
-[link](https://usmanaav.github.io/)
+Hello! This is [the small page](https://usmanaav.github.io/) about me, made sometime as a test :)
 
 ## branches
 
@@ -16,7 +16,7 @@ npm run install
 
 npm run deploy
 
-## used technologies
+## used stack
 
 ### js
 
